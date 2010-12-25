@@ -25,9 +25,12 @@ alias py='python'
 alias bat='acpi'
 
 # Git
-alias gitgrab='git clone'
 alias pushall='for i in `git remote`; do git push $i; done;'
 alias pullall='for i in `git remote`; do git pull $i; done;'
+alias gitgrab='git clone'
+function githubgrab() {
+  git clone git@github.com:$1;
+}
 
 # Leading to scripts
 alias upload='python ~/scripts/cloud/upload.py'
