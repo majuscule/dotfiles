@@ -25,6 +25,7 @@ alias py='python'
 alias bat='acpi'
 
 # Git
+alias gits='git status'
 alias pushall='for i in `git remote`; do git push $i; done;'
 alias pullall='for i in `git remote`; do git pull $i; done;'
 alias gitgrab='git clone'
