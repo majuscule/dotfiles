@@ -1,5 +1,5 @@
 # Prompt
-export PS1="\[\e[36m\]\u\[\e[33m\]\w\$ \[\e[0m\]"
+export PS1="\[\e[35m\]\u@ec2\[\e[33m\]\w\$ \[\e[0m\]"
 export EDITOR="vi"
 
 # Set bash mode to vi
