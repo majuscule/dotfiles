@@ -23,7 +23,11 @@ alias aptu='sudo apt-get update'
 alias grab='wget --convert-links --recursive --page-requisites --background --quiet --no-parent --directory-prefix=/var/www'
 alias py='python'
 alias bat='acpi'
+
+# Git
 alias gitgrab='git clone'
+alias pushall='for i in `git remote`; do git push $i; done;'
+alias pullall='for i in `git remote`; do git pull $i; done;'
 
 # Leading to scripts
 alias upload='python ~/scripts/cloud/upload.py'
