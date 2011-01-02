@@ -1,5 +1,5 @@
 # Prompt
-export PS1="\[\e[1;47m\]\u@fexceo\[\e[33m\]\w\$ \[\e[0m\]"
+export PS1="\[\e[1;47m\]\u@fexceo\[\e[0;33m\]\w\$ \[\e[0m\]"
 export EDITOR="vim"
 
 # Set bash mode to vi
