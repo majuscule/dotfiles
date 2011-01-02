@@ -19,11 +19,9 @@ alias sh='history | grep -i'
 alias cl='clear'
 alias apts='apt-cache search'
 alias aptsh='apt-cache show'
-alias apti='sudo apt-get install'
-alias aptu='sudo apt-get update'
-alias grab='wget --convert-links --recursive --page-requisites --background --quiet --no-parent --directory-prefix=/var/www'
+alias apti='apt-get install'
+alias aptu='apt-get update'
 alias py='python'
-alias bat='acpi'
 
 # Git
 alias gits='git status'
@@ -33,11 +31,6 @@ alias gitgrab='git clone'
 function githubgrab() {
   git clone git@github.com:$1;
 }
-
-# Leading to scripts
-alias upload='python ~/scripts/cloud/upload.py'
-alias tellserv='python ~/scripts/cloud/tellserv.py'
-alias grabmyfavs='python ~/scripts/youtube_backup/youtube_backup.py'
 
 # Make directory, cd into it
 function md {
