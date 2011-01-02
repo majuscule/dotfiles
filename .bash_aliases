@@ -1,11 +1,12 @@
 # Prompt
-export PS1="\[\e[36m\]\u\[\e[33m\]\w\$ \[\e[0m\]"
-export EDITOR="vi"
+export PS1="\[\e[1;47m\]\u@fexceo\[\e[33m\]\w\$ \[\e[0m\]"
+export EDITOR="vim"
 
 # Set bash mode to vi
 set -o vi
 
-alias v='vi'
+alias v='vim'
+alias vi='vim'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias cl='clear'
