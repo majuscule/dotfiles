@@ -39,7 +39,7 @@ alias tellserv='python ~/scripts/cloud/tellserv.py'
 alias grabmyfavs='python ~/scripts/youtube_backup/youtube_backup.py'
 
 # Web development
-alias ec2='ssh dylan@50.16.219.8'
+alias server='ssh dylan@dylanstestserver.com'
 alias clean='tidy -i -m'
 
 # Make directory, cd into it
