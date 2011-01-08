@@ -26,6 +26,11 @@ alias bat='acpi'
 
 # Git
 alias gits='git status'
+alias gitb='git branch'
+alias gitc='git commit'
+alias gitl='git lg'
+alias gitch='git checkout'
+alias gitd='git diff'
 alias pushall='for i in `git remote`; do git push $i; done;'
 alias pullall='for i in `git remote`; do git pull $i; done;'
 alias gitgrab='git clone'
