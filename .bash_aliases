@@ -5,7 +5,7 @@ export EDITOR="vi"
 # Set bash mode to vi
 set -o vi
 
-alias v='vi'
+alias v='vim'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias cl='clear'
