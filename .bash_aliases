@@ -1,5 +1,5 @@
 # Prompt
-export PS1="\[\e[36m\]\u\[\e[33m\]\w\$ \[\e[0m\]"
+export PS1="\[\e[37m\]\u@psu\[\e[34m\]\w\$ \[\e[0m\]"
 export EDITOR="vi"
 
 # Set bash mode to vi
@@ -9,9 +9,9 @@ alias v='vi'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias cl='clear'
-alias ll='ls -al --group-directories-first'
+alias ll='ls -al'
 alias s='grep -i'
-alias sd='ls -a --group-directories-first | grep -i'
+alias sd='ls -a | grep -i'
 alias p='ps u'
 alias sp='ps aux | grep -i'
 alias sh='history | grep -i'
