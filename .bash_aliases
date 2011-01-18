@@ -45,6 +45,7 @@ alias grabmyfavs='python ~/scripts/youtube_backup/youtube_backup.py'
 
 # Web development
 alias server='ssh dylan@dylanstestserver.com'
+alias psu='ssh djl5239@sftp.pass.psu.edu'
 alias clean='tidy -i -m'
 
 # Make directory, cd into it
